@@ -1,0 +1,131 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+.left-logo {
+  flex: 1;
+  width: 60px;
+  padding-left: 50px;
+}
+
+.center-header {
+  display: flex;
+  
+}
+
+.movie-button,
+.cinema-button,
+.promotions-button,
+.contact-us-button {
+  flex: 1;
+  height: 30px;
+  width: 150px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  text-align: center;  
+  white-space: nowrap;
+}
+
+.movie-button:hover,
+.cinema-button:hover,
+.promotions-button:hover,
+.contact-us-button:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  margin-top: -5px;
+  margin-left: 5px;
+  border-bottom-color: rgb(190, 3, 3);
+  color: rgb(190, 3, 3);
+}
+
+.movie-button {
+  border-bottom-color: rgb(190, 3, 3);
+  color: rgb(190, 3, 3);
+}
+
+.cinema-button,
+.promotions-button,
+.contact-us-button {
+  border-bottom-color: black;
+}
+
+.right-header {
+  display: flex;
+  padding-right: 50px;
+}
+
+.search-button {
+  flex: 1;
+  width: 35px;
+  margin-right: 10px;
+}
+
+.language-change {
+  display: flex;
+  border-width: 1px;
+  border-style: solid;
+  background-color: rgb(190, 3, 3);
+  width: 50px;
+  height: 30px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  flex: 1;
+}
+
+.second-header {
+  display: flex;
+  background: linear-gradient(90deg, rgba(79,79,79,1) 0%, rgba(0,0,0,1) 5%, rgba(4,4,4,1) 95%, rgba(79,79,79,1) 100%);
+  height: 300px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 30px;
+  right: 0;
+  left: 0;
+}
+
+.front-arrow,
+.back-arrow {
+  width: 30px;
+  
+}
+
+.second-header-left {
+  margin-left: 20px;
+}
+
+.second-header-right {
+  margin-right: 20px;
+}
+
+.second-header-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.slide-show {
+  color: white;
+  font-size: 30px;
+  margin-top: 120px;
+}
+
+.three-dot-container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 130px;
+}
+
+.three-dot {
+  display: flex;
+  width: 40px;
+}

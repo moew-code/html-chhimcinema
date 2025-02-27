@@ -1,0 +1,145 @@
+main {
+  padding-top: 90px;
+  height: 1300px;
+  background: linear-gradient(72deg, rgba(159,6,6,1) 19%, rgba(101,4,4,1) 56%);
+  
+}
+
+.second-frame-main {
+  display: flex;
+}
+
+.movie-info {
+  padding-top: 25px;
+}
+
+.name,
+.date {
+  color: white;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.date {
+  padding-top: 110px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.type {
+  color: rgba(99, 115, 148, 1);
+  line-height: 30px;
+}
+
+.movie-trailer {
+  display: flex;
+  height: 500px;
+  background-color: white;
+  margin-left: 41px;
+  margin-right: 41px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.choosing-day {
+  margin-top: 20px;
+}
+
+.choosing-day,
+.ti {
+  display: flex;
+  margin-left: 41px;
+  
+}
+
+.today,
+.ti{
+  display: flex;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.today {
+  width: 100px;
+}
+
+.ti {
+  width: 300px;
+  justify-content: space-around;
+}
+
+.td {
+  background-color: black;
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  margin-left: -33px;
+}
+
+.tmr,
+.after-tmr {
+  padding-right: 35px;
+}
+
+.choosing-hour {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(72deg, rgb(86, 3, 3) 19%, rgb(55, 10, 10) 56%);
+  height: 300px;
+  margin-bottom: 100px;
+  margin-left: 41px;
+  margin-right: 41px;
+  border-radius: 30px;
+  margin-top: 40px;
+}
+
+.chhim-cinema {
+  border-right-width: 1px;
+  border-right-color: aliceblue;
+  border-right-style: solid;
+  height: 250px;
+}
+
+.chhim-cinema-logo {
+  width: 300px; 
+  margin-top: 50px;
+  margin-right: 30px;
+  
+}
+
+.hour {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-show,
+.second-show,
+.third-show {
+  height: 40px;
+  width: 100px;
+  margin-right: 20px;
+  border-radius: 6px;
+  border-color: white;
+  border-style: solid;
+  color: rgb(175, 5, 5);
+}
+
+.first-show {
+  background-color: rgb(175, 5, 5);
+  border-color: rgb(175, 5, 5);
+  color: white;
+}

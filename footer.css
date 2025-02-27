@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  background: linear-gradient(72deg, rgb(86, 3, 3) 19%, rgb(55, 10, 10) 56%);
+  height: 200px;
+  color: white;
+  font-size: 12px;
+}
+
+.left-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 20px;
+  margin-left: 90px;
+}
+
+.kbal,
+.phone-number {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.center-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 20px;
+}
+
+
+.right-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 20px;
+  margin-right: 90px;
+}
+
+.footer-logo {
+  width: 70px;
+}
